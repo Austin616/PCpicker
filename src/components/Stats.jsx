@@ -14,7 +14,7 @@ const StatCard = ({ label, value, delay, inView }) => (
     initial={{ opacity: 0, y: 40 }}
     animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
     transition={{ duration: 0.6, delay }}
-    className="text-center p-6 rounded-xl shadow-lg bg-gray-900 hover:scale-105 transition-transform duration-300 hover:border-blue-600 border-2 border-transparent"
+    className="text-center p-6 rounded-xl shadow-2xl bg-gray-900 hover:scale-105 transition-transform duration-300 hover:border-blue-600 border-2 border-transparent"
   >
     <div className="text-3xl sm:text-4xl font-extrabold text-blue-600">{value}</div>
     <div className="mt-2 text-sm sm:text-base text-white">{label}</div>
@@ -28,7 +28,7 @@ const Stats = () => {
   })
 
   return (
-    <section ref={ref} className="bg-gray-100 mt-10 p-16 m-20 rounded-xl">
+    <section id='stats'ref={ref} className="bg-gray-100 mt-10 p-16 m-20 rounded-xl">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

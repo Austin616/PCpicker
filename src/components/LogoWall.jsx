@@ -25,7 +25,7 @@ const LogoWall = () => {
   };
 
   return (
-    <div className="flex flex-col items-center py-10">
+    <div id='logo-wall'className="flex flex-col items-center py-10">
       <div className="flex flex-col items-center justify-center text-center w-full max-w-7xl">
         <motion.div
           initial={{ y: 50, opacity: 0 }}

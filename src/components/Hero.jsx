@@ -3,7 +3,7 @@ import HeroPicture from '../assets/hero.webp';
 
 const Hero = () => {
   return (
-    <div className="flex justify-center py-10 px-4 bg-gray-100 mb-20 mt-10 mx-20 rounded-xl">
+    <div id='hero' className="flex justify-center py-10 px-4 bg-gray-100 mb-20 mt-10 mx-20 rounded-xl">
       <div className="flex flex-col md:flex-row items-center justify-between rounded-xl max-w-7xl w-full p-8 gap-6">
         
         {/* Text section - left (stacked on mobile) */}
