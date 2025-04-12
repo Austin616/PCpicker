@@ -41,8 +41,9 @@ const Navbar = () => {
           <li
             key={item.id}
             className="p-2 font-medium hover:bg-blue-600 rounded-xl cursor-pointer duration-300 hover:text-white"
+            Link={Link}
           >
-            {item.text}
+            <Link to={item.link}>{item.text}</Link>
           </li>
         ))}
       </ul>
@@ -83,7 +84,7 @@ const Navbar = () => {
             key={item.id}
             className="p-4 border-b rounded-xl hover:bg-blue-600 duration-300 text-white cursor-pointer border-gray-600"
           >
-            {item.text}
+            <Link to={item.link}>{item.text}</Link>
           </li>
         ))}
 

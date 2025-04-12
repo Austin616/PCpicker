@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './LogoWall.css';
 
-const logos = import.meta.glob('../assets/*.png', { eager: true });
+const logos = import.meta.glob('../../../assets/*.png', { eager: true });
 
 const LogoWall = () => {
   const brands = [

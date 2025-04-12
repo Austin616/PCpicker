@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroPicture from '../assets/hero.webp';
+import HeroPicture from '../../../assets/hero.webp';
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
             The ultimate destination for all your PC building needs. Discover, compare, and create your dream PC with ease.
           </p>
           <div className="flex justify-center md:justify-start">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-800 transition cursor-pointer">
               Get Started
             </button>
           </div>

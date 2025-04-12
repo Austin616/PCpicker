@@ -1,10 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FaMicrochip, FaRobot, FaChartLine, FaBalanceScale } from 'react-icons/fa'
-import priceImg from '../assets/price.png'
-import motherboardImg from '../assets/motherboard.png'
-import compareImg from '../assets/compare.png'
-import aiImg from '../assets/ai.png'
+import priceImg from '../../../assets/price.png'
+import motherboardImg from '../../../assets/motherboard.png'
+import compareImg from '../../../assets/compare.png'
+import aiImg from '../../../assets/ai.png'
 
 const features = [
   {
