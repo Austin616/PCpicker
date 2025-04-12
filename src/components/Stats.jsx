@@ -38,8 +38,8 @@ const Stats = () => {
         >
           Trusted Platform by the Numbers
         </motion.h2>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 ">
-          {stats.map((stat, index) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {stats.map((stat, index) => (
             <StatCard
               key={stat.label}
               label={stat.label}

@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import LogoWall from '../components/LogoWall'
 import Footer from '../components/Footer'
 import Stats from '../components/Stats'
+import Testimonials from '../components/Testimonials'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <LogoWall />
       <Stats />
+      <Testimonials />
       <Footer />
     </div>
   )
